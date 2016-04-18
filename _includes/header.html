@@ -1,0 +1,32 @@
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+  <div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menuitem"><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
+        <!--
+        <li class="menuitem logo"><a href="{{ site.baseurl }}/">
+        <img src="http://www.unicorn.se/images/logo.png">
+        </a></li>
+        -->
+      </ul>
+    </div>
+
+    <div class="top-bar-right">
+      <ul class="menu">
+        {% assign pages=site.pages | where:"lang", page.lang %}
+        {% for my_page in pages %}
+          {% if my_page.title %}
+          <li>
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+
