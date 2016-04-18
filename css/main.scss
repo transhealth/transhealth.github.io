@@ -3,13 +3,21 @@
 ---
 @charset "utf-8";
 
+@import "scss/settings";
 @import "scss/foundation";
 
-$primary-color: #70C9F1;
-$grid-row-width: 60rem;
-
+//$primary-color: #9C27B0;
+//$grid-row-width: 60rem;
+//$topbar-background: lighten($primary-color, 20%);
 @include foundation-everything;
 
-$footer-color: $dark-gray;
+$footer-color: $primary-color;
 
 @import "scss/footer";
+
+
+.top-bar {
+  a {
+    color:#fff;
+  }
+}

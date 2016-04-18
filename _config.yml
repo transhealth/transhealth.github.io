@@ -10,8 +10,8 @@ title: Trans healthcare info
 email: info@trans.healthcare
 description: > # this means to ignore newlines until "baseurl:"
   trans.healthcare: A global information portal for trans and non binary
-  people seeking information about transition and other trans healthcare
-  issues.
+  people seeking information about transition and other trans related
+  healthcare issues.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://trans.healthcare" # the base hostname & protocol for your site
 
