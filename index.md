@@ -2,24 +2,38 @@
 layout: default
 ---
 
-# Welcome to trans.healthcare, 
+<div class="frontpage heroine">
+  <div class="row small-12 columns">
+    
+    <h1><span class="site-logo">
+      <i></i><i></i><i></i>
+    </span>
+    <span>Welcome to trans.healthcare,</span></h1>
 
-an open platform and information portal
-for trans people seeking information relevant to transition.
 
-<div class="row small-up-1 medium-up-3">
-	<div class="column">
-		<a href="#" class="large expanded primary radius button">For him</a>
-	</div>
-	<div class="column">
-		<a href="#" class="large expanded primary radius button">For her</a>
-	</div>
-	<div class="column">
-		<a href="#" class="large expanded primary radius button">For parents</a>
-	</div>
+<p>
+    an open platform and information portal
+    for trans people seeking information relevant to transition.
+</p>
+
+<p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+</p>
+
+    <div class="row small-up-1 medium-up-3">
+      <div class="column">
+        <a href="#" class="large expanded primary radius button">For him</a>
+      </div>
+      <div class="column">
+        <a href="#" class="large expanded primary radius button">For her</a>
+      </div>
+      <div class="column">
+        <a href="#" class="large expanded primary radius button">For parents</a>
+      </div>
+    </div>
+  </div>
 </div>
-
-	
+<div class="row small-12 columns">
 
 <div class="media-object">
   <div class="media-object-section">
@@ -84,4 +98,6 @@ Ham jowl cow pork belly alcatra prosciutto brisket pastrami salami drumstick lan
 short ribs meatball swine capicola ribeye jerky ham hock. Beef t-bone leberkas, kielbasa meatloaf pork belly tongue ribeye pork loin pancetta turkey. Chicken kielbasa capicola, shankle flank filet mignon pork belly picanha leberkas t-bone. Kielbasa venison fatback tail turkey sausage tenderloin.
 
   </div>
+</div>
+
 </div>

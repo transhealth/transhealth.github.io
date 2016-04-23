@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "foundation-sites": "^6.2.0",
-    "prefixfree": "prefix-free#gh-pages"
+    "prefixfree": "prefix-free#gh-pages",
+    "font-awesome": "~4.6.1"
   }
 }

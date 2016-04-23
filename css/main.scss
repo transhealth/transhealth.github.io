@@ -5,6 +5,7 @@
 
 @import "scss/settings";
 @import "scss/foundation";
+@import "scss/font-awesome";
 
 //$primary-color: #9C27B0;
 //$grid-row-width: 60rem;
@@ -19,5 +20,66 @@ $footer-color: $primary-color;
 .top-bar {
   a {
     color:#fff;
+  }
+}
+
+
+/**
+<span class="fa-stack fa-5x logo">
+  <i class="fa fa-transgender-alt fa-stack-2x"></i>
+  <i class="fa fa-circle fa-stack-1x"></i>
+  <i class="fa fa-heartbeat fa-inverse fa-stack-1x"></i>
+</span>
+.fa-stack.logo {
+  color: $primary-color;
+  .fa-transgender-alt:before {
+    margin-left: 0.035em;
+  }
+  .fa-circle {
+    font-size: 1.34em;
+  }
+}
+ */
+
+
+.site-logo {
+  font-size: 0.8em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  color: $primary-color;
+  i {
+  display: inline-block;
+    @extend .fa, .fa-fw;
+    @extend .fa-transgender-alt;
+    position: absolute;
+    font-size: 2em;
+    + i {
+      @extend .fa-circle;
+      font-size: 1.4em;
+      margin-left: 0.22em;
+      margin-top: 0.16em;
+        + i {
+        @extend .fa-heartbeat, .fa-inverse;
+        font-size: 1em;
+        margin-left: 0.56em;
+        margin-top: 0.5em;        
+      }
+    }
+  }
+  & + span {
+    margin-left: 2em;
+  }
+}
+
+
+.heroine {
+  &.frontpage {
+    background-image: url('https://placekitten.com/1280/800');
+    background-size: cover;
+    font-size: 1.33em;
+    padding: 3em 0;
+    color: #fff;
+    margin-bottom: 1em;
   }
 }
