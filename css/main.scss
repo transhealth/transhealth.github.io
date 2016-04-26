@@ -75,6 +75,7 @@ $footer-color: $primary-color;
 
 .heroine {
   background-size: cover;
+  background-position: 50% 50%;
   font-size: 1.33em;
   &.frontpage {
     background-image: url('https://placekitten.com/1280/800');
@@ -83,11 +84,20 @@ $footer-color: $primary-color;
     margin-bottom: 1em;
   }
   &.construction {
-    background-image: url('https://placekitten.com/1920/1200');
+    background-image: url('https://c2.staticflickr.com/6/5523/14511581936_d9e0115d38_b.jpg');
     color: #fff;
     min-height: 100%;
-    padding-top: 10%;
+    @media #{$large-up} {
+      padding-top: 10%;
+    }
     font-size: 1rem;
+    .content {
+      background-color: rgba(0,0,0,0.6);
+      padding-top: 1.25em;
+      @media #{$large-up} {
+        border-radius: 0.5em;
+      }
+    }
     a {
       color: #fff;
       text-decoration: underline;

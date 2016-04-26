@@ -3,7 +3,7 @@ layout: blank
 ---
 
 <div class="construction heroine">
-  <div class="row small-12 columns">
+  <div class="content row small-12 columns">
     
     <h1><span class="site-logo">
       <i></i><i></i><i></i>
@@ -44,5 +44,8 @@ layout: blank
       in the gaps yourself if you want to.
     </p>
 
+  </div>
+  <div class="row small-12 columns">
+    <p class="text-right">Background by <a href="https://www.flickr.com/photos/gazeronly/14511581936/">torbakhopper</a></p>
   </div>
 </div>
