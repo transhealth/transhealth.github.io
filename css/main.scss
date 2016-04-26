@@ -63,7 +63,7 @@ $footer-color: $primary-color;
         @extend .fa-heartbeat, .fa-inverse;
         font-size: 1em;
         margin-left: 0.56em;
-        margin-top: 0.5em;        
+        margin-top: 0.5em;
       }
     }
   }
@@ -74,12 +74,29 @@ $footer-color: $primary-color;
 
 
 .heroine {
+  background-size: cover;
+  font-size: 1.33em;
   &.frontpage {
     background-image: url('https://placekitten.com/1280/800');
-    background-size: cover;
-    font-size: 1.33em;
     padding: 3em 0;
     color: #fff;
     margin-bottom: 1em;
+  }
+  &.construction {
+    background-image: url('https://placekitten.com/1920/1200');
+    color: #fff;
+    min-height: 100%;
+    padding-top: 10%;
+    font-size: 1rem;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    abbr {
+      color: #fff;
+    }
+    h1 + p {
+      font-size: 1.33em;
+    }
   }
 }
