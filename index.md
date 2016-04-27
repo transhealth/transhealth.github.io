@@ -11,7 +11,7 @@ layout: blank
       <i></i><i></i><i></i>
     </span>
 -->
-    <img src="{{ "/images/logo-inverse.svg" | prepend: site.baseurl }}" class="logo">
+    <img src="{{ "/images/logo.svg" | prepend: site.baseurl }}" class="logo">
     <span>Welcome to trans.healthcare,</span></h1>
 
     <p>
