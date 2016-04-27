@@ -41,6 +41,20 @@ $footer-color: $primary-color;
 }
  */
 
+h1 {
+  img.logo {
+    height: 1.67em;
+  }
+}
+
+.top-bar {
+  a.logo {
+    padding: 0;
+    img {
+      height: 2.4em;
+    }
+  }
+}
 
 .site-logo {
   font-size: 0.8em;

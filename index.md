@@ -5,9 +5,13 @@ layout: blank
 <div class="construction heroine">
   <div class="content row small-12 columns">
     
-    <h1><span class="site-logo">
+    <h1>
+<!--
+    <span class="site-logo">
       <i></i><i></i><i></i>
     </span>
+-->
+    <img src="{{ site.baseurl }}images/logo.svg" class="logo">
     <span>Welcome to trans.healthcare,</span></h1>
 
     <p>
