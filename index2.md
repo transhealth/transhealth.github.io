@@ -5,9 +5,13 @@ layout: default
 <div class="frontpage heroine">
   <div class="row small-12 columns">
     
-    <h1><span class="site-logo">
+    <h1>
+<!--
+    <span class="site-logo">
       <i></i><i></i><i></i>
     </span>
+-->
+    <img src="{{ "/images/logo-inverse.svg" | prepend: site.baseurl }}" class="logo">
     <span>Welcome to trans.healthcare,</span></h1>
 
 
